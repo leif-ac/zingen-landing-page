@@ -31,11 +31,23 @@
 }
 
 .gap-1 {
-    display: 1rem;
+    gap: 1rem;
+}
+
+.gap-1\.5 {
+    gap: 1.5rem
 }
 
 .flex {
     display: flex;
+}
+
+.itemscenter {
+    align-items: center;
+}
+
+.justifycenter {
+    justify-content: center;
 }
 
 .grid {

@@ -32,8 +32,8 @@
     /*  Fonte   */
     --ff-sans: 'Inter', system-ui, sans-serif;
     --fw-base: 400;
-    --ff-md: 500;
-    --ff-bold: 800;
+    --fw-md: 500;
+    --fw-bold: 800;
 
     --fs-sm: 0.875rem;
     --fs-base: 1rem;
@@ -48,6 +48,10 @@ html {
     font-size: var(--fs-base);
     line-height: 1.6rem;
     color: var(--text-color-primary);
+
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
 }
 
 body {
@@ -88,6 +92,17 @@ a:hover {
 
 ul[role="list"] {
     list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+p {
+    font: var(--fw-base) var(--fs-base)/160% var(--ff-sans);
+    color: var(--text-color-secondary);
+    margin-top: .2rem;
 }
 
 @media (width >= 80em) {
